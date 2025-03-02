@@ -1,0 +1,51 @@
+header h1 {
+    display: flex;
+    background-color: #383838;
+    padding: 50px;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4);
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 20px;
+    width: auto;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+section{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 4;
+    background-color: gray;
+}
+
+article{
+    grid-column: 3;
+}
+
+footer{
+    background-color: #383838;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
