@@ -9,7 +9,6 @@ header h1 {
 .container{
     position: relative;
     display: grid;
-    grid-template-columns: repeat(4);
 }
 
 nav{
