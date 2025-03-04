@@ -1,0 +1,137 @@
+:root{
+    --heading-font: "Roboto", sans-serif;
+    --text-font: "Montserrat", serif;
+}
+
+header{
+    background-color: #9D5861;
+    display: grid;
+    color: lightgray;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+p{
+    font-family: var(--text-font);
+}
+
+.container{
+    background-color: #322E38;
+    display: grid;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-family: var(--text-font);
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:hover{
+    color: #8BE8CB;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+section{
+    border: solid black 3px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card{
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(6, auto);
+}
+
+#me{
+    border-radius: 10px;
+    grid-column: 3;
+    margin: 10px;
+}
+
+.card h1{
+    text-align: center;
+    background-color: #9D5861;
+    color: lightgray;
+    padding: 10px;
+    margin-top: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    grid-column: 1 / span 3;
+    font-family: var(--text-font);
+}
+.card p{
+    display: flex;
+    grid-row: 2;
+    padding: 10px;
+}
+
+#texas{
+    border-radius: 10px;
+    margin: 10px;
+    grid-row: 6;
+}
+
+.card h2{
+    grid-column: 2;
+    grid-row: 4;
+    text-decoration: underline;
+}
+
+#aboutTexas{
+    grid-row: 6;
+    grid-column: 2 / span 2;
+    margin: 10px;
+}
+
+h2{
+    font-family: var(--heading-font);
+}
+
+.card2{
+    grid-column: 3;
+}
+
+.card2 a{
+    display: block;
+    padding-left: 10px;
+    font-family: var(--text-font)
+}
+
+ul{
+    list-style-type: circle;
+    display: grid;
+    row-gap: 10px;
+}
+
+.card2 h1{
+    text-align: center;
+    background-color: #9D5861;
+    padding: 10px;
+    color: lightgray;
+    margin-top: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: var(--text-font);
+}
+
+footer{
+    text-align: center;
+    background-color: #9D5861;
+    padding: 15px;
+    color: lightgray;
+}
