@@ -1,0 +1,30 @@
+header{
+    font-family: 'Roboto', sans-serif;
+    max-width: 640px;
+    margin: 1rem auto;
+    border: solid rgb(145, 145, 247) 10px;
+    padding: 5px;
+    background-color: rgb(145, 145, 247);
+}
+
+section{
+    font-family: 'Roboto', sans-serif;
+    max-width: 640px;
+    margin: 1rem auto;
+    border: solid rgb(145, 145, 247) 10px;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    max-width: 640px;
+    margin: 1rem auto;
+    border: solid rgb(145, 145, 247) 10px;
+    padding: 5px;
+    background-color: rgb(145, 145, 247);
+}
+
+main{
+    display: grid;
+}
