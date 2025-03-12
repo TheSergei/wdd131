@@ -9,8 +9,9 @@ a{
 }
 
 header{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
     background-color: rgb(71, 16, 122);
     color: white;
     padding-left: 10px;
@@ -23,6 +24,7 @@ nav{
     align-items: center;
     font-family: var(--lesser-font);
     width: 100%;
+    gap: 20px;
 }
 
 nav a:hover{
@@ -49,7 +51,13 @@ main h1{
 
 figure{
     width: 100%;
-    height: auto;
+    translate: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: max-content;
 }
 
 
@@ -110,4 +118,22 @@ footer{
     text-align: center;
     padding: 1px;
     font-family: var(--lesser-font);
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+}
+
+.burger-menu span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: white;
+    margin: 3px 0;
+    transition: 0.3s;
 }
