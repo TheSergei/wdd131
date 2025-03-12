@@ -1,0 +1,113 @@
+:root{
+    --greater-font: 'Roboto', sans-serif;
+    --lesser-font: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(71, 16, 122);
+    color: white;
+    padding-left: 10px;
+    font-family: var(--greater-font);
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: var(--lesser-font);
+    width: 100%;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    outline: 15px solid white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 70px 1fr 1fr 1fr;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+main h1{
+    grid-column: 2;
+    font-family: var(--greater-font);
+    text-align: center;
+}
+
+figure{
+    width: 100%;
+    height: auto;
+}
+
+
+#first{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#second{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#third{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#fourth{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#fifth{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#sixth{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#seventh{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#eighth{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+
+#nineth{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+figcaption{
+    font-family: var(--lesser-font);
+    color: rgb(71, 16, 122);
+}
+
+footer{
+    background-color: rgb(71, 16, 122);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-family: var(--lesser-font);
+}
