@@ -8,6 +8,13 @@ a{
     color: white;
 }
 
+.this{
+    position: relative;
+    transform: translate(150%, 5%);
+    color: rgb(71, 16, 122);
+    z-index: 1;
+}
+
 header{
     display: flex; 
     justify-content: space-evenly; 
