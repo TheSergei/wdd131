@@ -73,7 +73,7 @@ footer{
     width: 100%;
     padding: 3px;
     margin-top: 5px;
-     font-family: var(--lesser-font);
+    font-family: var(--lesser-font);
 }
 
 
@@ -107,6 +107,11 @@ footer{
     .weather h2{
         color: white;
     }
+
+    .weather-icon {
+        width: 150px;  
+        height: 150px;  
+    }    
 
     .icon {
         display: block;
