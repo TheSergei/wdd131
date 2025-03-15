@@ -1,0 +1,127 @@
+:root{
+    --greater-font: 'Roboto', sans-serif;
+    --lesser-font: 'Montserrat', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: #0C0A3E;
+    padding: 25px;
+    color: white;
+    margin: 10px;
+    font-family: var(--greater-font);
+}
+
+body{
+    background-color:#A31621;
+}
+
+.hero-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.data{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(209, 205, 205, 0.4);
+    padding: 5px;
+    font-family: var(--lesser-font);
+}
+
+.weather{
+    position: absolute;
+    top: 85%;
+    left: 79%;
+    background-color: rgb(209, 205, 205, 0.4);
+    padding: 5px;
+    font-family: var(--lesser-font);
+}
+
+.weather h2{
+    text-align: center;
+    color: black;
+}
+
+.weather h2::after {
+    content: '⛅';
+    padding-left: 10px;
+}
+
+.weather p {
+    color: black;
+}
+
+.data h2{
+    text-align: center;
+}
+
+.weather{
+    color: white;
+}
+
+footer{
+    color: white;
+    justify-self: center;
+    text-align: center;
+    background-color: #0C0A3E;
+    width: 100%;
+    padding: 3px;
+    margin-top: 5px;
+     font-family: var(--lesser-font);
+}
+
+
+@media screen and (max-width: 800px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .data {
+        position: static;
+        text-align: center;
+        transform: translate(0%, 0%);
+        margin: 10px;
+        width: 100%;
+        color: white;
+    }
+
+    .weather {
+        position: static;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .weather p{
+        color: white;
+    }
+
+    .weather h2{
+        color: white;
+    }
+
+    .icon {
+        display: block;
+    }
+    .weather h2::after {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    .icon {
+        display: none;
+    }
+    .weather-icon{
+        display: none;
+    }
+}

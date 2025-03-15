@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="country page">
+    <title>Country Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>United States</h1>
+    </header>
+    <main>
+        <div class="hero-img">
+            <picture>
+                <source media="(min-width: 1280px)" srcset="images/hero-large.webp">
+                <img src="images/hero-small.webp" alt="small screen">
+            </picture>
+        </div>
+        <div class="data">
+            <h2>Data</h2>
+            <p>>Area: 3,809,525 square miles </p>
+            <p>Population: 340.1 million </p>
+            <p>Capital: Washington, D.C. </p>
+            <p>Languages: English </p>
+            <p>Currency: US Dollar </p>
+            <p>Time Zone: Washington, DC (GMT-4) </p>
+            <p>Calling Code: +1 </p>
+            <p>Internet TLD: .us </p>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather-icon.svg" class="weather-icon" alt="Weather Icon" style="width: 150px; height: 150px;">
+            <p>Temperature: 42°F </p>
+            <p>Conditions: Partly Cloudy</p>
+            <p>Wind: 4 mph</p>
+            <p id="windchill"></p>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Sergio USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
