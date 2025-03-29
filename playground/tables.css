@@ -1,0 +1,25 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+th, td{
+    padding: 15px;
+}
+th{
+    background-color: black;
+    color: white;
+}
+
+.head th{
+    color: white;
+    background-color: rgb(66, 66, 66);
+}
+
+#solo{
+    background-color: black;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+  }
