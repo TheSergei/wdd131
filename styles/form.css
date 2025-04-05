@@ -1,3 +1,8 @@
+:root{
+    --greater-font: 'Roboto', sans-serif;
+    --lesser-font: 'Montserrat', sans-serif;
+}
+
 h1{
     text-align: center;
     background-color: rgb(165, 103, 165);
@@ -6,11 +11,13 @@ h1{
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px 0 5px;
+    font-family: var(--greater-font);
 }
 
 form{
     background-color: rgb(196, 185, 185);
     max-width: 40rem;
+    font-family: var(--lesser-font);
 }
 
 form div{
@@ -32,6 +39,7 @@ footer{
     color: white;
     margin-top: 5px;
     padding: 5px 0 5px;
+    font-family: var(--greater-font);
 }
 
 #button {
@@ -54,4 +62,8 @@ footer{
 
 .radio-label {
     display: block;
+}
+
+textarea{
+    max-width: 35rem;
 }
