@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="week05/form.css">
-    <script src="week05/form.js" defer></script>
+    <meta name="description" content="form">
+    <meta name="author" content="sergio quintanilla">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
     <h1>Product Review</h1>
-    <form method="get" action="week05/review.html">
+    <form method="get" action="review.html">
         <fieldset>
             <legend>Product Review</legend>
             <select name="ProductName" id="pName" required>
@@ -32,7 +34,7 @@
             <label class="checkbox-label"><input type="checkbox" name="performance" value="">Performance</label>
 
             <div>Written Review</div>
-            <label> <input type="text" name="write" id="written"></label>
+            <label> <input type="textarea" name="write" id="written"></label>
             <br>
             <input type="submit" value="finish review" id="button" >
         </fieldset>
