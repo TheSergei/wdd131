@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <h1>Product Review</h1>
+    <form method="get" action="review.html">
+        <fieldset>
+            <legend>Product Review</legend>
+            <select name="ProductName" id="pName" required>
+                <option value="" disabled selected>please select</option>
+            </select>
+            <div class="radio">Overall Rating</div>
+            <label class="radio-label"><input type="radio" name="rating" value="one">☆</label>
+            <label class="radio-label"><input type="radio" name="rating" value="two">☆☆</label>
+            <label class="radio-label"><input type="radio" name="rating" value="three">☆☆☆</label>
+            <label class="radio-label"><input type="radio" name="rating" value="four">☆☆☆☆</label>
+            <label class="radio-label"><input type="radio" name="rating" value="five">☆☆☆☆☆</label>
+
+            <div>Date of Installation</div>
+            <input type="date" name="installation">
+
+            <div>Which features did you find useful in the product? <br> (Check all that apply)</div>
+            <label class="checkbox-label"><input type="checkbox" name="design" value="">Design</label>
+            <label class="checkbox-label"><input type="checkbox" name="durability" value="">Durability</label>
+            <label class="checkbox-label"><input type="checkbox" name="ease of use" value="">Ease of use</label>
+            <label class="checkbox-label"><input type="checkbox" name="performance" value="">Performance</label>
+
+            <div>Written Review</div>
+            <label> <input type="text" name="write" id="written"></label>
+            <br>
+            <input type="submit" value="finish review" id="button" >
+        </fieldset>
+    </form>
+</body>
+<footer>
+    <p>© <span id="currentyear"></span> Sergio USA</p>
+    <p id="lastModified"></p>
+</footer>
+</html>

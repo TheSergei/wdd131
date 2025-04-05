@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    background-color: rgb(165, 103, 165);
+    color: white;
+    max-width: 40rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 0 5px;
+}
+
+form{
+    background-color: rgb(196, 185, 185);
+    max-width: 40rem;
+}
+
+form div{
+    padding: 1rem 0 0 0;
+}
+
+form input[type="checkbox"] {
+    display: block
+}
+
+form label input[type="checkbox"] {
+    left: 100rem;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(165, 103, 165);
+    max-width: 40rem;
+    color: white;
+    margin-top: 5px;
+    padding: 5px 0 5px;
+}
+
+#button {
+    margin: 1rem 0 0 0;
+    max-width: 400px;
+    height: 30px;
+}
+
+#written{
+    height: 30px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    max-width: 200px;
+    margin-bottom: 0.5rem;
+}
+
+.radio-label {
+    display: block;
+}
