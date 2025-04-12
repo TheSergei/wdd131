@@ -10,19 +10,29 @@ nav{
     align-items: center;
 }
 
+.container1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+}
+
+h2{
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
 #lamb{
-    margin-left: 70rem;
+    grid-column: 2;
+    margin: 5rem 0 10rem 28rem;
+
 }
 
 .images{
-    
+    display: flex;
     justify-content: space-between;
-}
+    margin: 2rem;
 
-.map{
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
 }
 
 iframe{
@@ -35,4 +45,25 @@ footer{
     background-color: bisque;
     text-align: center;
     padding: 1rem;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin: 1rem;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+.contactH1{
+    grid-column: 1;
+    grid-row: 1;
 }
